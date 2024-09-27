@@ -33,3 +33,4 @@ After building and deploying the function, you need to [enable custom schema che
 1. In the graph you're integrating this with go to **Checks > Configuration** and enable custom checks, registering the function URL and entering your `APOLLO_HMAC_TOKEN` as the secret token.
 1. Run a schema check using the [Rover CLI](https://www.apollographql.com/docs/rover/) to test the integration.
     - You should see check results in GraphOS Studio on the **Checks** page. You can also verify logs in the Netlify console.
+
